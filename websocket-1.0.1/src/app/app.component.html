@@ -1,0 +1,40 @@
+<div>
+  <h1>Welcome to {{ title }}!</h1>
+</div>
+<div class="footer">
+  <div>
+    <input id="input" type="text" #input />
+    <button type="button" class="button-send" (click)="sendMessage(input.value)">
+      SENDMessage
+    </button>
+  </div>
+</div>
+<br />
+<div>Message coming is : {{ chatdata }}</div>
+
+<br>
+<br>
+
+<div class="footer1">
+  <div>
+    <input id="input" type="text" #input1 />
+    <button type="button" class="button-send" (click)="sendObj(input1.value)">
+      SENDOBJ
+    </button>
+  </div>
+</div>
+<br />
+<div>Message coming is : {{ topicdata }}</div>
+
+<br>
+<br>
+
+<div class="footer2">
+  <div>
+    <input id="input" type="text" #input2 />
+    <button type="button" class="button-send" (click)="sendJson()">
+      SENDJSON
+    </button>
+  </div>
+</div>
+<div>Object coming is : {{jsondata.name}} </div>
