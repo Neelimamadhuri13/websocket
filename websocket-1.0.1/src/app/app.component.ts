@@ -12,7 +12,7 @@ import { sendRequest } from "selenium-webdriver/http";
 export class AppComponent {
   // title = 'websocket';
   // tslint:disable-next-line:semicolon
-  serverUrl = "http://localhost:8081/socket";
+  serverUrl = "http://localhost:8089/socket";
   title = "WebSockets chat";
   stompClient;
   chatdata;

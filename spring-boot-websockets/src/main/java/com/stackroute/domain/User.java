@@ -1,4 +1,4 @@
-package com.stackroute.plasma.domain;
+package com.stackroute.domain;
 
 public class User {
 
